@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section h1 {
+    text-align: center;
+}
+
+.main {
+    border: 3px solid black;
+    width: 30rem;
+    height: 21.3rem;
+    margin: 5rem 45rem;
+}
+
+.containerOne {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.containerTwo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.containerThree {
+    display: flex;
+    justify-content: center;
+}
+
+.containerFour {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerFive {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerSix {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerSeven {
+    display: flex;
+    flex-direction: row;
+}
+
+.containerEight {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.containerNine {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.containerTen {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerEleven {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.containerTwelve {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem
+}
+
+.containerThirteen {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 0.5rem;
+}
+
+.containerFourteen {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.one,
+.two,
+.three {
+    border: 2px solid black;
+    background-color: red;
+    width: 7rem;
+    height: 7rem;
+    text-align: center;
+    padding-top: 2.5rem;
+    color: white;
+}
+
+.tOne,
+.tTwo,
+.tThree {
+    border: 2px solid black;
+    background-color: blue;
+    width: 7rem;
+    height: 7rem;
+    text-align: center;
+    padding-top: 2.5rem;
+    color: white;
+}
